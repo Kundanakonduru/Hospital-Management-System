@@ -1,0 +1,42 @@
+#Doctorcard{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap:wrap;
+}
+#patientcard div{
+  border:black;
+  width: 20px;
+  height:10px;
+}
+
+.Doctor-search {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 8px;
+  border: 1px solid black;
+  outline: none;
+  border-radius: 4px;
+}
+
+/* Search bar focus lo kuda black border */
+.Doctor-search:focus {
+  border: 1px solid black;
+  outline: none;
+}
+
+/* Heading */
+.Doctor-heading {
+  text-align: center;
+  color:blueviolet;
+}
+
+/* Patient Card */
+.Doctor-card {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+}
+
+/* Patient values */
+.Doctor-value {
+  color: blue;
+}
